@@ -1,0 +1,13 @@
+a,
+button,
+input,
+textarea {
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0;
+    }
+}
+
+a {
+    @apply inline-block text-current no-underline hover:no-underline;
+}
